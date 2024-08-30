@@ -7,15 +7,15 @@ The project is organized as follows:
 ```Scribbly 
 │ 
 ├── _libraries/ 
-│ └── gsap.min.js # GSAP library used for animations
+│ └── gsap.min.js :GSAP library used for animations
 |
-│──home.html # Page where saved notes can be viewed, edited, or deleted
-├── home.js # JavaScript file handling the logic for home.html 
-├── icon.png # Icon used for the extension 
-├── index.html # Contains the HTML code for the popup extension and inline CSS 
-├── manifest.json # Configuration file for the Chrome extension 
-├── script.js # JavaScript file handling logic for index.html (popup) 
-└── style.css # CSS file for styling home.html
+│──home.html       Page where saved notes can be viewed, edited, or deleted
+├── home.js        JavaScript file handling the logic for home.html 
+├── icon.png       Icon used for the extension 
+├── index.html     Contains the HTML code for the popup extension and inline CSS 
+├── manifest.json  Configuration file for the Chrome extension 
+├── script.js      JavaScript file handling logic for index.html (popup) 
+└── style.css      CSS file for styling home.html
 ```
 ## Installation
 
