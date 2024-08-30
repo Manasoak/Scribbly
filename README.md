@@ -1,11 +1,10 @@
 # Scribbly
 
-## Description & Motive
 Scribbly is a Chrome extension for seamless note management. It allows users to easily add, edit, and delete notes directly in their browser. Ideal for organizing reminders and tasks, Scribbly ensures that important information is always accessible, helping you stay organized and productive.
 
 ## Project Structure
 The project is organized as follows:
-Scribbly 
+```Scribbly 
 │ 
 ├── _libraries/ 
 │ └── gsap.min.js # GSAP library used for animations 
@@ -16,7 +15,7 @@ Scribbly
 ├── manifest.json # Configuration file for the Chrome extension 
 ├── script.js # JavaScript file handling logic for index.html (popup) 
 └── style.css # CSS file for styling home.html
-
+```
 ## Installation
 
 You can install Scribbly as a Chrome extension by following these steps:
