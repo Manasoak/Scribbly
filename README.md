@@ -18,6 +18,15 @@ Scribbly is a Chrome extension that turns your browser into a powerful note-taki
 **Lightweight and Efficient**: Scribbly is a lightweight extension, ensuring it runs efficiently without impacting your browser's performance.
 
 
+## Table of Contents
+- [Installation](#installation)
+- [How to Set Up the Project Locally](#how-to-set-up-the-project-locally)
+- [Documentation](#documentation)
+- [Project Structure](#project-structure)
+- [Languages & Tools Used](#languages--tools-used)
+
+
+
 ## Installation
 
 You can install Scribbly as a Chrome extension by following these steps:
@@ -30,9 +39,7 @@ Fork and Clone the Repository or download this repository to your local machine.
    - Enable "Developer mode" by toggling the switch in the top right.
    - Click on "Load unpacked" and select the folder where you cloned or extracted the repository.
      
-
-https://github.com/user-attachments/assets/8753782c-1f39-4b9b-adb5-824ae918025a
-
+![how-to - Made with Clipchamp](https://github.com/user-attachments/assets/6b38f735-6d55-440e-855b-a072505b282b)
 
 
 3. **Use the Extension**:
@@ -40,8 +47,8 @@ https://github.com/user-attachments/assets/8753782c-1f39-4b9b-adb5-824ae918025a
    - A popup will appear with an area for noting. After noting , click the "Save" button to save your note. 
    - Click on "View All Notes" to see and manage your saved notes.
 
+![demo - Made with Clipchamp](https://github.com/user-attachments/assets/a0146219-a308-403c-b7b9-bd7340d0fb1f)
 
-https://github.com/user-attachments/assets/32beb910-f568-40aa-8702-b19c1056b8a5
 
 
 
