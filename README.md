@@ -15,6 +15,11 @@ Fork and Clone the Repository or download this repository to your local machine.
    - Go to `chrome://extensions/`
    - Enable "Developer mode" by toggling the switch in the top right.
    - Click on "Load unpacked" and select the folder where you cloned or extracted the repository.
+     
+
+https://github.com/user-attachments/assets/8753782c-1f39-4b9b-adb5-824ae918025a
+
+
 
 3. **Use the Extension**:
    - The Scribbly icon will appear in your Chrome toolbar. Click on it to open the sticky notes popup.
