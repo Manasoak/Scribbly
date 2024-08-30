@@ -1,12 +1,15 @@
 # Scribbly
 
-Scribbly is a Chrome extension for seamless note management. It allows users to easily add, edit, and delete notes directly in their browser. Ideal for organizing reminders and tasks, Scribbly ensures that important information is always accessible, helping you stay organized and productive.
+Scribbly is a Chrome extension that turns your browser into a powerful note-taking tool. With Scribbly, you can effortlessly manage your notes with simple CRUD operations—create, read, update, and delete. The extension utilizes `DOM (Document Object Model) Manipulation` to dynamically add, edit, and remove notes right within your browser. It leverages `localStorage` to ensure your notes are saved and accessible across sessions, making it easy to organize your thoughts and tasks. Scribbly combines intuitive design with efficient functionality to keep your ideas organized and within reach.
+
+
 
 ## Installation
 
 You can install Scribbly as a Chrome extension by following these steps:
 
-1. **Download the Project**:Fork and Clone the Repository or download this repository to your local machine.
+1. **Download the Project**:
+Fork and Clone the Repository or download this repository to your local machine.
 
 2. **Open Chrome and Navigate to the Extensions Page**:
    - Go to `chrome://extensions/`
@@ -15,19 +18,26 @@ You can install Scribbly as a Chrome extension by following these steps:
 
 3. **Use the Extension**:
    - The Scribbly icon will appear in your Chrome toolbar. Click on it to open the sticky notes popup.
+   - A popup will appear with an area for noting. After noting , click the "Save" button to save your note. 
+   - Click on "View All Notes" to see and manage your saved notes.
+
 
 ## How to Set Up the Project Locally
 
 To set up Scribbly locally for development or customization:
 
 1. **Clone the Repository**
+
 2. **Navigate to the Project Directory**
+
 3. **Make Changes**:
 - Modify the `script.js`, `home.js`, or CSS files to customize the extension.
 - Update the `manifest.json` if you add new features or permissions.
+
 4. **Load the Unpacked Extension**:
 - Go to `chrome://extensions/` in Chrome.
 - Click "Load unpacked" and select your modified Scribbly directory.
+
 5. **Test Your Changes**:
 - Use the extension in Chrome to test any changes you've made.
 - Reload the extension in `chrome://extensions/` after each change.
