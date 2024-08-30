@@ -55,7 +55,7 @@ Scribbly
 ```
 
 ## Languages & Tools Used
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,js,figma,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,figma,git)](https://skillicons.dev)
 
 
 Feel free to explore the code and customize Scribbly to better suit your needs!
