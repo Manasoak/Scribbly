@@ -2,21 +2,6 @@
 
 Scribbly is a Chrome extension for seamless note management. It allows users to easily add, edit, and delete notes directly in their browser. Ideal for organizing reminders and tasks, Scribbly ensures that important information is always accessible, helping you stay organized and productive.
 
-## Project Structure
-The project is organized as follows:
-```Scribbly 
-│ 
-├── _libraries/ 
-│ └── gsap.min.js :GSAP library used for animations
-|
-│──home.html       Page where saved notes can be viewed, edited, or deleted
-├── home.js        JavaScript file handling the logic for home.html 
-├── icon.png       Icon used for the extension 
-├── index.html     Contains the HTML code for the popup extension and inline CSS 
-├── manifest.json  Configuration file for the Chrome extension 
-├── script.js      JavaScript file handling logic for index.html (popup) 
-└── style.css      CSS file for styling home.html
-```
 ## Installation
 
 You can install Scribbly as a Chrome extension by following these steps:
@@ -51,14 +36,27 @@ To set up Scribbly locally for development or customization:
 
 For detailed documentation on,how to create, edit, and delete notes, please refer to the comments within the `script.js` and `home.js` files, which provide insight into the code's functionality.
 
+
+## Project Structure
+The project is organized as follows:
+```
+Scribbly 
+│ 
+├── _libraries/ 
+│ └── gsap.min.js :GSAP library used for animations
+|
+│──home.html       Page where saved notes can be viewed, edited, or deleted
+├── home.js        JavaScript file handling the logic for home.html 
+├── icon.png       Icon used for the extension 
+├── index.html     Contains the HTML code for the popup extension and inline CSS 
+├── manifest.json  Configuration file for the Chrome extension 
+├── script.js      JavaScript file handling logic for index.html (popup) 
+└── style.css      CSS file for styling home.html
+```
+
 ## Languages & Tools Used
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,js,figma,gsap,git)](https://skillicons.dev)
-- **HTML5**: For structuring the popup and home pages.
-- **CSS3**: For styling the notes and extension interface.
-- **JavaScript**: For handling the logic of note creation, saving, and display.
-- **GSAP**: For animations within the extension.
-- **Chrome Extensions API**: For integrating the project as a Chrome extension.
-- **Git**: For version control.
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,js,figma,git)](https://skillicons.dev)
+
 
 Feel free to explore the code and customize Scribbly to better suit your needs!
 
