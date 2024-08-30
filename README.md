@@ -2,6 +2,14 @@
 
 Scribbly is a Chrome extension that turns your browser into a powerful note-taking tool. With Scribbly, you can effortlessly manage your notes with simple CRUD operations—create, read, update, and delete. The extension utilizes `DOM (Document Object Model) Manipulation` to dynamically add, edit, and remove notes right within your browser. It leverages `localStorage` to ensure your notes are saved and accessible across sessions, making it easy to organize your thoughts and tasks. Scribbly combines intuitive design with efficient functionality to keep your ideas organized and within reach.
 
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [How to Set Up the Project Locally](#how-to-set-up-the-project-locally)
+- [Documentation](#documentation)
+- [Project Structure](#project-structure)
+- [Languages & Tools Used](#languages--tools-used)
 ## Features
 **Quick Note Creation**: Easily add new notes with a simple and intuitive popup interface. Just click the Scribbly icon in your Chrome toolbar, jot down your thoughts, and save them instantly.
 
@@ -17,13 +25,6 @@ Scribbly is a Chrome extension that turns your browser into a powerful note-taki
 
 **Lightweight and Efficient**: Scribbly is a lightweight extension, ensuring it runs efficiently without impacting your browser's performance.
 
-
-## Table of Contents
-- [Installation](#installation)
-- [How to Set Up the Project Locally](#how-to-set-up-the-project-locally)
-- [Documentation](#documentation)
-- [Project Structure](#project-structure)
-- [Languages & Tools Used](#languages--tools-used)
 
 
 
