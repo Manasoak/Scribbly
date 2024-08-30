@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribbly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 1em;
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+            background-color: #0e0e0e;
+            color: whitesmoke;
+            font-family: "Space Mono", monospace;
+        }
+
+        .note {
+            background-color: whitesmoke;
+            width: 300px;
+            height: 200px;
+            padding: 0.5em;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: end;
+            justify-content: end;
+            gap: 10px;
+            padding: 0.5em;
+        }
+
+        button {
+            padding: 0.5em;
+            border-radius: 50px;
+            font-family: "Space Mono", monospace;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0e0e0e;
+            color: whitesmoke;
+        }
+
+        #saveNote {
+            width: 40px;
+            border-radius: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #openNotes {
+            width: 100%;
+        }
+
+        textarea {
+            resize: none;
+            height: 100%;
+            padding: 1em;
+            outline: 0;
+            border: 0;
+            background-color: whitesmoke;
+            font-size: 1.5em;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 20%;
+            font-weight: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Add a Note</h1>
+    <div class="note">
+        <textarea id="newNote"></textarea>
+        <div class="buttons">
+            <button id="saveNote"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="save">
+                    <path
+                        d="M18 21V13H6V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H17L21 7V20C21 20.5523 20.5523 21 20 21H18ZM16 21H8V15H16V21Z">
+                    </path>
+                </svg></button>
+            <button id="openNotes">View All Notes</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <h3>Scribbly-v 1.0</h3>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

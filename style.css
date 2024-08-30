@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #0e0e0e;
+    font-family: "Space Mono", monospace;
+}
+
+nav {
+    color: whitesmoke;
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: "Space Mono", monospace;
+    margin: 0.5em;
+  
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+nav button {
+    padding: 0.5em;
+    font-family: "Space Mono", monospace;
+    border: 1px solid whitesmoke;
+    background: none;
+    color: whitesmoke;
+    border-radius: 50px;
+    width: 10em;
+    font-weight: 800;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background-color: whitesmoke;
+    color: #0e0e0e;
+    border: 0px;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+.loader {
+    z-index: 5;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #595959;
+}
+
+.note {
+    width: 400px;
+    height: 300px;
+    margin: 1em;
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+}
+
+.tool {
+    width: 100%;
+    padding: 1em;
+    color: whitesmoke;
+    border-radius: 50px;
+    display: flex;
+    justify-content: end;
+    gap: 0.8em;
+}
+
+.tool svg {
+    width: 3em;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: #3d3d3d;
+    padding: 0.5em;
+    border-radius: 40px;
+    transition: background 0.5s ease-in-out;
+}
+
+.tool svg:hover {
+    background-color: #0e0e0e;
+}
+
+.note textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+}
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
+
+#preloader {
+    background: #0e0e0e;
+    color: #5f5f5f;
+    letter-spacing: -2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    font-size: 1.5em;
+
+    /* Ensure full screen coverage */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: calc(1em + 1vw);
+}
+
+ ::-webkit-scrollbar {
+     width: 1em;
+     padding: 1em;
+ }
+ ::-webkit-scrollbar-track{
+    background-color: #5f5f5f;
+    margin-block: 1.5em;
+    border-radius: 20px;
+ }
+ ::-webkit-scrollbar-thumb{
+    background-color: #202020;
+    border-radius: 30px;
+    border:3px solid #5f5f5f ;
+ }
+
+ 
+textarea::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+textarea::-webkit-scrollbar-track {
+    background-color: #5f5f5f;
+    margin-block: 1.5em;
+    border-radius: 20px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #383838;
+    border-radius: 30px;
+    border: 3px solid #5f5f5f;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        font-size: 1.4em;
+    }
+
+    nav button {
+        width: 9em;
+    }
+
+    .note {
+        width: 350px;
+        height: 280px;
+    }
+
+    .tool svg {
+        width: 2.8em;
+    }
+
+    #preloader {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        font-size: 1.2em;
+    }
+
+    nav button {
+        width: 8em;
+    }
+
+    .note {
+        width: 90%;
+        height: auto;
+    }
+
+    .tool svg {
+        width: 2.5em;
+    }
+
+    #preloader {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav button {
+        
+        margin: 1em 0;
+    }
+
+    .note {
+        width: 95%;
+        height: 400px;
+    }
+
+    .tool {
+        flex-direction: row;
+    }
+
+    .tool svg {
+        width: 2.5em;
+    }
+
+    #preloader {
+        font-size: 1em;
+    }
+}
