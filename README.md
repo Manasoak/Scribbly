@@ -39,7 +39,11 @@ Fork and Clone the Repository or download this repository to your local machine.
    - Enable "Developer mode" by toggling the switch in the top right.
    - Click on "Load unpacked" and select the folder where you cloned or extracted the repository.
      
-![how-to - Made with Clipchamp](https://github.com/user-attachments/assets/6b38f735-6d55-440e-855b-a072505b282b)
+
+
+
+https://github.com/user-attachments/assets/1078e1fa-0348-4981-af3e-12d2af16a779
+
 
 
 3. **Use the Extension**:
@@ -47,7 +51,11 @@ Fork and Clone the Repository or download this repository to your local machine.
    - A popup will appear with an area for noting. After noting , click the "Save" button to save your note. 
    - Click on "View All Notes" to see and manage your saved notes.
 
-![demo - Made with Clipchamp](https://github.com/user-attachments/assets/a0146219-a308-403c-b7b9-bd7340d0fb1f)
+
+
+
+https://github.com/user-attachments/assets/c143316b-8b8a-470d-931f-f8cd56ad2006
+
 
 
 
